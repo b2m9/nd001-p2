@@ -1,0 +1,1 @@
+Repo for developing a simple AJAX app for Udacity's frontend web development course.
