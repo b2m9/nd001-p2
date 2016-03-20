@@ -4,7 +4,7 @@ var bio = {
     name: "John Doe",
     role: "Professional Adult",
     contacts: {
-        mobile: "+69 1234 5678",
+        mobile: "+65 1234 5678",
         email: "hi@jdoe.com",
         github: "jdoe",
         twitter: "@jdoe",
@@ -25,7 +25,11 @@ var bio = {
                 + HTMLskillsStart);
                 
         // add skills and fix a CSS bug
-        jQuery("#skills").css("display", "block").append(this.skills.map(function (el) { return HTMLskills.replace(d, el) } ));
+        jQuery("#skills")
+            .css("display", "block")
+            .append(this.skills.map(function (el) {
+                return HTMLskills.replace(d, el);
+            } ));
 
         // add contact details
         jQuery("#topContacts")

@@ -1,13 +1,13 @@
 /* global $, jQuery, HTMLschoolStart, HTMLschoolName, HTMLschoolDegree, HTMLschoolDates, HTMLschoolLocation, HTMLschoolMajor, HTMLonlineClasses, HTMLonlineTitle, HTMLonlineSchool, HTMLonlineDates, HTMLonlineDates, HTMLonlineURL */
 
-var edu = {
+var education = {
     schools: [{
-        name: "Nanyang Technological University Singapore",
-        location: "Singapore",
+        name: "National Taipei University of Technology",
+        location: "Taiwan",
         degree: "MSc",
         majors: "Computer Science",
         dates: "2007 - 2010",
-        url: "http://www.ntu.edu.sg"
+        url: "http://www.ntut.edu.tw"
     }, {
         name: "University of Applied Sciences Stuttgart",
         location: "Germany",

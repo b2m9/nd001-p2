@@ -10,7 +10,7 @@ var work = {
     }, {
         employer: "Important Corp.",
         title: "R&D Engineer",
-        location: "Germany",
+        location: "France",
         dates: "May 2010 - November 2012",
         description: "Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions."
     }],
