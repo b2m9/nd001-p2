@@ -38,5 +38,12 @@ var bio = {
                 + HTMLtwitter.replace(d, this.contacts.twitter)
                 + HTMLgithub.replace(d, this.contacts.github)
                 + HTMLlocation.replace(d, this.contacts.location));
+        
+        jQuery("#footerContacts")
+            .append(HTMLmobile.replace(d, this.contacts.mobile)
+                + HTMLemail.replace(d, this.contacts.email)
+                + HTMLtwitter.replace(d, this.contacts.twitter)
+                + HTMLgithub.replace(d, this.contacts.github)
+                + HTMLlocation.replace(d, this.contacts.location));
     }
 };

@@ -5,14 +5,14 @@ var education = {
         name: "National Taipei University of Technology",
         location: "Taiwan",
         degree: "MSc",
-        majors: "Computer Science",
+        majors: ["Computer Science"],
         dates: "2007 - 2010",
         url: "http://www.ntut.edu.tw"
     }, {
         name: "University of Applied Sciences Stuttgart",
         location: "Germany",
         degree: "MSc",
-        majors: "Civil Engineering",
+        majors: ["Civil Engineering"],
         dates: "2004 - 2007",
         url: "https://www.hft-stuttgart.de"
     }],
@@ -36,7 +36,7 @@ var education = {
                 + HTMLschoolDegree.replace(d, el.degree)
                 + HTMLschoolDates.replace(d, el.dates)
                 + HTMLschoolLocation.replace(d, el.location)
-                + HTMLschoolMajor.replace(d, el.majors));
+                + HTMLschoolMajor.replace(d, el.majors.join(", ")));
         })).append(HTMLonlineClasses).append(this.onlineCourses.map(function (el) {
             return jQuery(HTMLschoolStart).append(HTMLonlineTitle.replace(d, el.title)
                 + HTMLonlineSchool.replace(d, el.school)
